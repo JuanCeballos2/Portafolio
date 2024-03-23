@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para la lista de enlaces */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+/* Estilos para los enlaces */
+li a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+}
+
 /* Estilos para el contenedor principal */
 .container {
     display: flex;
@@ -55,7 +84,7 @@
 
 /* Estilos para el encabezado */
 header {
-    background-color: #dde1e431; /* Color de fondo */
+    background-color: #fffafa; /* Color de fondo */
     padding: 40px 0; /* Espaciado interno */
     border-bottom: 2px solid #ddd; /* Borde inferior */
     text-align: center; /* Alinea el texto horizontalmente */
@@ -76,7 +105,7 @@ header p {
 
 /* Estilos para la sección de proyectos */
 #projects {
-    background-color: #f9f9f9; /* Color de fondo */
+    background-color: #ffffff; /* Color de fondo */
     padding: 40px 0; /* Espaciado interno */
     border-bottom: 2px solid #ddd; /* Borde inferior */
 }
@@ -97,7 +126,6 @@ header p {
     color: #666; /* Color del texto */
     margin-bottom: 10px; /* Espacio inferior */
 }
-
 .project img {
     border-radius: 5px; /* Borde redondeado */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -148,3 +176,5 @@ footer {
     background-color: #333; /* Color de fondo */
     color: #fff; /* Color del texto */
 }
+
+
